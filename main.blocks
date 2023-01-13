@@ -4,16 +4,34 @@
         . . . . . 
         . # # # . 
         # . . . #
-        `</field></block></statement></block><block type="device_button_event" id="L~xWDp2ff6}mq|GH0i=E" x="451" y="-29"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="#;GTDMf+JzKO[[{#lggk"><field name="LEDS">`
+        `</field><next><block type="playMelody" id="WmCDcxSdMT|KWc,UADut"><value name="melody"><shadow type="melody_editor"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="GGsJLmdwOeS#!ujZX(z)"><field name="melody">"B B F F F C C C "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="n:yqJ,N7yg*4YJK8xNG+"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">244</field></shadow></value></block></next></block></statement></block><block type="device_button_event" id="L~xWDp2ff6}mq|GH0i=E" x="451" y="-29"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="#;GTDMf+JzKO[[{#lggk"><field name="LEDS">`
         . . . . . 
         . # . # . 
         . . . . . 
         # . . . # 
         . # # # .
-        `</field></block></statement></block><block type="pxt-on-start" id="/m@5hTM:5^H;p/K|DG~Z" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="6lZYt/}ufz2{rJ:l0[+0"><field name="LEDS">`
+        `</field><next><block type="playMelody" id="kxOykJZa!.9Ea+oP6d;U"><value name="melody"><shadow type="melody_editor"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="!h(#HvJ/~]#[w?ci}2d,"><field name="melody">"D E F G A F E D "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="J6Cq0o~kw/S9kHo:H}.9"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">315</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id="/m@5hTM:5^H;p/K|DG~Z" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="$d~L!3X$~B^azTHqg!j|"><field name="LEDS">`
         . . . . . 
-        . . . . # 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="U^2InWUG5qSdwN%lQbnG"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="6lZYt/}ufz2{rJ:l0[+0"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="w*c;=Tn`[RaKD.B#@3bC"><field name="LEDS">`
+        . # # # . 
         . . . # . 
-        # . # . . 
-        . # . . .
-        `</field></block></statement></block><block type="device_forever" id="3/[oIQ!v^2G$mEM`!0e`" x="931" y="332"></block><block type="playMelody" id="kxOykJZa!.9Ea+oP6d;U" disabled="true" x="761" y="514"><value name="melody"><shadow type="melody_editor"><field name="melody">"- - - - - - - - "</field></shadow><block type="melody_editor" id="!h(#HvJ/~]#[w?ci}2d," disabled="true"><field name="melody">"C D E F A G A A "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="J6Cq0o~kw/S9kHo:H}.9" disabled="true"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">315</field></shadow></value><next><block type="synth_set_volume" id="=mGTV9cbWPa@4Zjy_sYu" disabled="true"><value name="volume"><shadow type="math_number_minmax" id="7=?B6$sZv$4^9)`0xT[d" disabled="true"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">127</field></shadow></value></block></next></block></xml>
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="3/[oIQ!v^2G$mEM`!0e`" x="931" y="332"></block><block type="synth_set_volume" id="=mGTV9cbWPa@4Zjy_sYu" disabled="true" x="485" y="553"><value name="volume"><shadow type="math_number_minmax" id="7=?B6$sZv$4^9)`0xT[d" disabled="true"><mutation min="0" max="255" label="Volume" precision="0"></mutation><field name="SLIDER">127</field></shadow></value></block></xml>
