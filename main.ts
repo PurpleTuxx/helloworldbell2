@@ -16,7 +16,7 @@ input.onButtonPressed(Button.B, function () {
         . # # # .
         # . . . #
         `)
-    music.playMelody("B B F F F C C C ", 244)
+    music.playMelody("B B B G G G C C ", 283)
 })
 basic.showLeds(`
     . . . . .
@@ -45,7 +45,16 @@ basic.showLeds(`
     . . # . .
     . . . . .
     . . # . .
-    `)
+    `,1000)
 basic.forever(function () {
-	
+    while (input.logoIsPressed()) {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `,0)
+    }
+    basic.clearScreen()
 })
