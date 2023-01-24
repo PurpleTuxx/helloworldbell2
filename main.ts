@@ -16,6 +16,7 @@ input.onButtonPressed(Button.AB, function () {
         . # # # #
         . # . # .
         `)
+    music.setTempo(120)
     music.playTone(277, music.beat(BeatFraction.Half))
     music.playTone(330, music.beat(BeatFraction.Half))
     music.playTone(370, music.beat(BeatFraction.Half))
